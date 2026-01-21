@@ -6,7 +6,7 @@ const TODOSTATUS = {
   COMPLETE: true,
 };
 
-export class CreateToDODto {
+export class CreateToDoDto {
   @IsString()
   @IsNotEmpty()
   title: string;
